@@ -217,15 +217,18 @@
 
 
 .navbar{
-    background-color: red;
+    /*background-color: red;*/
     display: grid;
     grid-template-columns: repeat(8,1fr);
     align-items: center;
     flex-wrap: wrap;
+    background-image: linear-gradient(red,yellow);
+    
 }
 .navbar .menu-bar{
     grid-column: 1;
     display: none;
+    
 }
 .navbar .menu{
     display: flex;
@@ -271,7 +274,19 @@
     grid-row: 1/2;
     grid-column: 1/8;
     font-weight: 300;
+    animation-name: un_efecto;
+    animation-timing-function: ease-in;
+    animation-duration: 2s; 
 }
+
+@keyframes un_efecto{
+    0%{font-size: 90px;}
+    25%{font-size: 100px;}
+    50%{font-size: 110px;}
+    75%{font-size: 120px;}
+    100%{font-size: 130px;}
+}
+
 
 .principal .logoprincipal{
     display: flex;
@@ -306,7 +321,10 @@
     padding: 14px 30px;
     border-radius: 30px;
     margin-top: 15px;
+    transition: all 3s;
 }
+
+
 .principal .botones .boton1{
     cursor: pointer;
     display: flex;
@@ -319,6 +337,27 @@
     border-radius: 30px;
     margin-top: 15px;
 }
+.principal .botones .boton1:hover{
+    transform: scale(1.2);
+    color: red;
+    background-color:black;
+}
+.principal .botones .boton2:hover{
+    transform: scale(1.2);
+    color: red;
+    background-color:black;
+}
+.principal .botones .boton3:hover{
+    transform: scale(1.2);
+    color: red;
+    background-color:black;
+}
+.principal .botones .boton4:hover{
+    transform: scale(1.2);
+    color: red;
+    background-color:black;
+}
+
 .principal .botones .boton2{
     cursor: pointer;
     display: flex;
@@ -358,8 +397,9 @@
 
 .pieDepagina{
     display: grid;
-    background-color: red;
+    /*background-color: red;*/
     flex-wrap: wrap;
+    background-image: linear-gradient(to top,red,yellow);
 
 }
 .pieDepagina .pieDepaginaredes{
@@ -504,4 +544,8 @@
         width: 150px;
 
     }
+
+    /*Animaciones al INDEX*/
+    
+
 }
