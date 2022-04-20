@@ -8,8 +8,44 @@
 .navbar-scroll .nav-link,
 .navbar-scroll .navbar-toggler-icon,
 .navbar-scroll .navbar-brand {
-color: rgb(54, 14, 232);
+color: rgb(255, 255, 255);
 }
 h1{
-    color: red;
+    color:white;
+    font-family: fantasy;
+    background-image: linear-gradient(to right, red,yellow);
+}
+
+nav{
+    background-image: linear-gradient(to top,black,red);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+footer{
+    background-image: linear-gradient(to top,red,black);
+}
+button:hover{
+    zoom: 150%;
+}
+button{
+    font-style: oblique;
+    font-family: 'Merriweather', serif;
+}
+image{
+    border: solid black 1px;
+    border-radius:10px;
+}
+iframe{
+    border: solid black 1px;
+    border-radius: 10px;
+}
+h5{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+}
+p{
+    font-family: serif;
+}
+legend{
+    font-family: fantasy;
+    color: white;
 }
