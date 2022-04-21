@@ -1,51 +1,83 @@
-
-*{
-    border: 0px;
-    margin: 0px;
-    padding: 0px;
+* {
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
 }
+
 /*Estilos para el bootstrap*/
 .navbar-scroll .nav-link,
 .navbar-scroll .navbar-toggler-icon,
 .navbar-scroll .navbar-brand {
-color: rgb(255, 255, 255);
-}
-h1{
-    color:white;
-    font-family: fantasy;
-    background-image: linear-gradient(to right, red,yellow);
+  color: rgb(255, 255, 255);
 }
 
-nav{
-    background-image: linear-gradient(to top,black,red);
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+h1 {
+  color: white;
+  font-family: fantasy;
+  background-image: linear-gradient(to right, red, yellow);
 }
 
-footer{
-    background-image: linear-gradient(to top,red,black);
+nav {
+  background-image: linear-gradient(to top, black, red);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
-button:hover{
-    zoom: 150%;
+
+footer {
+  background-image: linear-gradient(to top, red, black);
 }
-button{
-    font-style: oblique;
-    font-family: 'Merriweather', serif;
+
+button:hover {
+  zoom: 150%;
 }
-image{
-    border: solid black 1px;
-    border-radius:10px;
+
+button {
+  font-style: oblique;
+  font-family: "Merriweather", serif;
 }
-iframe{
-    border: solid black 1px;
-    border-radius: 10px;
+
+image {
+  border: solid black 1px;
+  border-radius: 10px;
 }
-h5{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+
+iframe {
+  border: solid black 1px;
+  border-radius: 10px;
 }
-p{
-    font-family: serif;
+
+h5 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-legend{
-    font-family: fantasy;
-    color: white;
+
+p {
+  font-family: serif;
 }
+
+legend {
+  font-family: fantasy;
+  color: white;
+}
+
+nav {
+  color: white;
+}
+nav ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+nav li {
+  display: inline-block;
+  font-size: 15px;
+}
+nav a {
+  display: block;
+  padding: 10px 12px;
+  text-decoration: none;
+}
+nav a:hover {
+  zoom: 110%;
+  border: solid white 1px;
+}
+
+/*# sourceMappingURL=estilos.css.map */
