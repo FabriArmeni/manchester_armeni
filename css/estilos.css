@@ -114,7 +114,7 @@ body {
     background-color: white;
   }
 }
-.minititulos {
+p {
   font-size: large;
   font-weight: lighter;
   font-style: oblique;
@@ -123,6 +123,23 @@ body {
   animation-name: slidein;
   animation-duration: 3s;
   animation-delay: 10s;
+}
+
+.btn-group {
+  display: none;
+}
+
+@media screen and (max-width: 991px) {
+  .btn-group {
+    display: block;
+    position: fixed;
+  }
+}
+h4 {
+  font-size: large;
+  font-weight: lighter;
+  font-style: oblique;
+  color: black;
 }
 
 /*# sourceMappingURL=estilos.css.map */
